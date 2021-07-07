@@ -1,122 +1,121 @@
 /* Styles go here */
 
 /* Universal styles */
-* {
+/* * {
     font-family: serif;
-  }
-  
-  h1 {
-    color: #000c66;
-  }
-  
-  h3 {
-    color: #000c66;
-  }
-  
-  /* Style for the header navbar */
-  .container-fluid {
-    padding-bottom: 1.5%;
-  }
-  
-  /* Styles for the homepage handlebar */
-  .background-image {
-    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/22/24/justitia-2597016_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 30%;
-  }
-  
-  .first-header {
-    margin-top: 5.5%;
-    padding-bottom: 5.5%;
-    border-bottom: solid #274472;
-    border-radius: 10%;
-  }
-  
-  .fist-paragraph {
-    margin-top: 2.5%;
-    font-size: larger;
-  }
-  
-  .first-main {
-    display: inline-flex;
-  }
-  
-  .main-image {
-    width: 50%;
-    border-radius: 5%;
-  }
-  
-  .second-main-section {
-    margin-top: 5.5%;
-    margin-bottom: 5.5%;
-  }
-  
-  .first-container {
-    padding-bottom: 50px;
-  }
-  
-  .section-img {
-    width: 300px;
-  }
-  
-  h2 {
-    color: #7ec8e3;
-  }
-  
-  /* Styles for the civil handlebar */
-  .background-image-civil {
-    background-image: url(https://cdn.pixabay.com/photo/2016/07/11/11/10/law-1509436_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 30%;
-  }
-  
-  
-  /* Styles for familiar handlebar */
-  .background-image-familiar {
-    background-image: url(https://cdn.pixabay.com/photo/2013/07/09/01/50/court-144090_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 30%;
-  }
-  
-  /* Styles for penal handlebar */
-  .background-image-penal {
-    background-image: url(https://cdn.pixabay.com/photo/2016/08/11/23/54/judge-1587300_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 30%;
-  }
-  
-  /* Styles for publiacaciones handlebar */
-  .background-image-publicaciones {
-    background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/14/books-1245690_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 30%;
-  }
-  
-  .publications-section-one {
-    margin-bottom: 3.5%;
-    border-bottom: solid #274472;
-    border-radius: 10%;
-  }
-  
-  .publications-header {
-    margin-bottom: 2.5%;
-  }
-  
-  /* Styles for the footer handlebar */
-  footer {
-    background-color: #050A30;
-    margin-bottom: 0%;
-  }
-  
-  .text-footer {
-    color: aliceblue;
-  }
-  
-  .redirected-to-publications {
-    margin-bottom: 1.5%;
-  }
+  } */
+
+h1 {
+  color: #000c66;
+}
+
+h3 {
+  color: #000c66;
+}
+
+/* Style for the header navbar */
+.container-fluid {
+  padding-bottom: 1.5%;
+}
+
+/* Styles for the homepage handlebar */
+.background-image {
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/06/22/24/justitia-2597016_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30%;
+}
+
+.first-header {
+  margin-top: 5.5%;
+  padding-bottom: 5.5%;
+  border-bottom: solid #274472;
+  border-radius: 10%;
+}
+
+.fist-paragraph {
+  margin-top: 2.5%;
+  font-size: larger;
+}
+
+.first-main {
+  display: inline-flex;
+}
+
+.main-image {
+  width: 50%;
+  border-radius: 5%;
+}
+
+.second-main-section {
+  margin-top: 5.5%;
+  margin-bottom: 5.5%;
+}
+
+.first-container {
+  padding-bottom: 50px;
+}
+
+.section-img {
+  width: 300px;
+}
+
+h2 {
+  color: #7ec8e3;
+}
+
+/* Styles for the civil handlebar */
+.background-image-civil {
+  background-image: url(https://cdn.pixabay.com/photo/2016/07/11/11/10/law-1509436_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30%;
+}
+
+/* Styles for familiar handlebar */
+.background-image-familiar {
+  background-image: url(https://cdn.pixabay.com/photo/2013/07/09/01/50/court-144090_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30%;
+}
+
+/* Styles for penal handlebar */
+.background-image-penal {
+  background-image: url(https://cdn.pixabay.com/photo/2016/08/11/23/54/judge-1587300_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30%;
+}
+
+/* Styles for publiacaciones handlebar */
+.background-image-publicaciones {
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/14/books-1245690_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30%;
+}
+
+.publications-section-one {
+  margin-bottom: 3.5%;
+  border-bottom: solid #274472;
+  border-radius: 10%;
+}
+
+.publications-header {
+  margin-bottom: 2.5%;
+}
+
+/* Styles for the footer handlebar */
+footer {
+  background-color: #050a30;
+  margin-bottom: 0%;
+}
+
+.text-footer {
+  color: aliceblue;
+}
+
+.redirected-to-publications {
+  margin-bottom: 1.5%;
+}
