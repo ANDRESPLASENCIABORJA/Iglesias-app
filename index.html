@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,15 +16,14 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top navbar navbar-dark" style="background-color: #050a30">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Iglesias y Abogados</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html">Iglesias y Abogados</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="index.html">Conócenos</a>
+                        <a class="nav-link active" aria-current="page" href="./pages/welcome.html">Conócenos</a>
                         <a class="nav-item nav-link" href="./pages/civil.html">Abogado Civil</a>
                         <a class="nav-item nav-link" href="./pages/familiar.html">Abogado Familiar</a>
                         <a class="nav-item nav-link" href="./pages/penal.html">Abogado Penalista</a>
@@ -34,55 +34,23 @@
                 </div>
             </div>
         </nav>
-
-        
-
-        <!-- {{! For second a background container with an image, as the previews one is going to be on all the handlebars}} -->
-        <div class="container-fluid background-image"></div>
     </header>
+
+
+
 
     <!-- {{! For the third section of the app is going to be a div with information about us }} -->
     <main>
-        <!-- {{! first section of the main section with an about us on it }} -->
-        <section class="first-main-section">
-            <div class="container-fluid first-header">
-                <h1 class="text-center">¿Quienes Somos?</h1>
-                <p class="text-center fist-paragraph">
-                    Somos un buffete de abogados con mas de veinte años de experiencia
-                    en las ramas penal, civil y familiar.
-                </p>
-            </div>
-        </section>
-        <!-- {{! Second main section with two images and description of the mission and vission of the firm }} -->
-        <section class="second-main-section">
-            <div class="card mb-3 first-container-home" style="max-width: 100%">
-                <div class="row g-0">
-                    <div class="col-md-6">
-                        <img src="https://cdn.pixabay.com/photo/2015/11/17/18/59/architecture-1048092_1280.jpg"
-                            class="img-fluid rounded-start" alt="..." />
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card-body">
-                            <h1 class="card-title">Misión</h1>
-                            <p class="card-text">Text here.</p>
-                            <p class="card-text">
-                                <small class="text-muted">Text here.</small>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card-body">
-                            <h1 class="card-title">Visión</h1>
-                            <p class="card-text">Text here.</p>
-                            <p class="card-text">
-                                <small class="text-muted">Text here.</small>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="https://cdn.pixabay.com/photo/2015/08/21/13/28/courtroom-898931_1280.jpg"
-                            class="img-fluid rounded-start" alt="..." />
-                    </div>
+        <section class="hello-world">
+            <!-- {{! For second a background container with an image, as the previews one is going to be on all the handlebars}} -->
+            <div class="card bg-dark text-white">
+                <img src="https://cdn.pixabay.com/photo/2014/09/07/21/52/city-438393_1280.jpg" class="card-img"
+                    alt="...">
+                <div class="card-img-overlay hello-world">
+                    <h3 class="card-title">Nuestro Buffette</h3>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                    <a href="./pages/welcome.html" class="btn btn-primary">Conócenos</a>
+
                 </div>
             </div>
         </section>
@@ -138,7 +106,7 @@
 
         <!-- {{!-- Make a section for the legal advise --}} -->
         <section class="footer-legal-advise"></section>
-        
+
     </footer>
 </body>
 
