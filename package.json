@@ -1,0 +1,28 @@
+{
+  "name": "iglesias-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANDRESPLASENCIABORJA/Iglesias-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ANDRESPLASENCIABORJA/Iglesias-app/issues"
+  },
+  "homepage": "https://github.com/ANDRESPLASENCIABORJA/Iglesias-app#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10"
+  }
+}
