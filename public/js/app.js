@@ -35,7 +35,6 @@ contactForm.addEventListener("submit", (e) => {
       problem.value = "";
     } else {
       alert("something went wrong");
-      console.log(err);
     }
   };
 
