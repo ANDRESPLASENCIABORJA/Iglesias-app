@@ -26,7 +26,7 @@ contactForm.addEventListener("submit", (e) => {
   xhr.setRequestHeader("content-type", "application/json");
   xhr.onload = function () {
     console.log(xhr.responseText);
-    
+
     // This if statement clears the form
     if (xhr.responseText === "success") {
       alert("Email sent");
@@ -34,14 +34,13 @@ contactForm.addEventListener("submit", (e) => {
       userName.value = "";
       problem.value = "";
     } else {
-        alert ('something went wrong')
+      alert("something went wrong");
+      console.log(err);
     }
-  }
+  };
 
   // Last thing we want to do is send the data to the backend
   xhr.send(JSON.stringify(inputFormData));
 
   // This was the last step for our front end javascript, the backend is located on the server.js file and will recieve this information
-
-
 });
