@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top navbar navbar-dark" style="background-color: #050a30">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Iglesias y Abogados</a>
+                <a class="navbar-brand" href="/home">Iglesias y Abogados</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -24,12 +24,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="./welcome.html">Conócenos</a>
-                        <a class="nav-item nav-link" href="./civil.html">Abogado Civil</a>
-                        <a class="nav-item nav-link" href="./familiar.html">Abogado Familiar</a>
-                        <a class="nav-item nav-link" href="./penal.html">Abogado Penalista</a>
-                        <a class="nav-item nav-link" href="./publicaciones.html">Publicaciones</a>
-                        <a class="nav-item nav-link" href="#contacto">Contacto</a>
+                        <a class="nav-link active" aria-current="page" href="/welcome">Conócenos</a>
+                        <a class="nav-item nav-link" href="/civil">Abogado Civil</a>
+                        <a class="nav-item nav-link" href="/familiar">Abogado Familiar</a>
+                        <a class="nav-item nav-link" href="/penal">Abogado Penalista</a>
+                        <a class="nav-item nav-link" href="/publicaciones">Publicaciones</a>
+                        <a class="nav-item nav-link" href="/contact">Contacto</a>
                         <a class="nav-item nav-link" href="#">Aspectos Legales/Aviso de Privacidad</a>
                     </div>
                 </div>
@@ -37,51 +37,86 @@
         </nav>
 
         <!-- {{! For second a background container with an image, as the previews one is going to be on all the handlebars}} -->
-        <div class="container-fluid background-image"></div>
+        <div class="container-fluid background-image-civil"></div>
     </header>
 
-
-    <!-- {{! For the third section of the app is going to be a div with information about us }} -->
-    <main>
-        <!-- {{! first section of the main section with an about us on it }} -->
+    <main class="ml-3 mr-3 civil-main-section">
         <section class="first-main-section">
             <div class="container-fluid first-header">
-                <h1 class="text-center">¿Quienes Somos?</h1>
+                <h5 class="text-center">Área Civil</h5>
                 <p class="text-center fist-paragraph">
-                    Somos un buffete de abogados con mas de veinte años de experiencia
-                    en las ramas penal, civil y familiar.
+                    En el área de derecho civil nos especializamos en diferentes ramas
+                    como lo son mercantil, etc.
                 </p>
             </div>
         </section>
-        <!-- {{! Second main section with two images and description of the mission and vission of the firm }} -->
+
         <section class="second-main-section">
-            <div class="card mb-3 first-container-home" style="max-width: 100%">
-                <div class="row g-0">
-                    <div class="col-md-6">
-                        <img src="https://cdn.pixabay.com/photo/2015/11/17/18/59/architecture-1048092_1280.jpg"
-                            class="img-fluid rounded-start" alt="..." />
-                    </div>
-                    <div class="col-md-6">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card" style="background-color: #c3ceda">
+                        <img src="https://cdn.pixabay.com/photo/2014/09/07/21/52/city-438393_1280.jpg"
+                            class="img-fluid card-img-top" alt="people-img" />
                         <div class="card-body">
-                            <h1 class="card-title">Misión</h1>
-                            <p class="card-text">Text here.</p>
-                            <p class="card-text">
-                                <small class="text-muted">Text here.</small>
-                            </p>
+                            <h5 class="card-title">Personas</h5>
+                            <p class="card-text">People Law information</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                </div>
+                <div class="col">
+                    <div class="card mb-3" style="background-color: #c3ceda">
+                        <img src="https://cdn.pixabay.com/photo/2018/07/02/12/53/ferrari-3511456_1280.jpg"
+                            class="img-fluid card-img-top" alt="car-img" />
                         <div class="card-body">
-                            <h1 class="card-title">Visión</h1>
-                            <p class="card-text">Text here.</p>
-                            <p class="card-text">
-                                <small class="text-muted">Text here.</small>
-                            </p>
+                            <h5 class="card-title">Bienes</h5>
+                            <p class="card-text">Assets Law information</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img src="https://cdn.pixabay.com/photo/2015/08/21/13/28/courtroom-898931_1280.jpg"
-                            class="img-fluid rounded-start" alt="..." />
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card" style="background-color: #c3ceda">
+                        <img src="https://cdn.pixabay.com/photo/2014/04/10/15/28/fountain-321028_1280.jpg"
+                            class="img-fluid card-img-top" alt="house-img" />
+                        <div class="card-body">
+                            <h5 class="card-title">Propiedad</h5>
+                            <p class="card-text">Property Law information</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3" style="background-color: #c3ceda">
+                        <img src="https://cdn.pixabay.com/photo/2018/02/02/13/17/the-dollar-3125419_1280.jpg"
+                            class="img-fluid card-img-top" alt="possesion-img" />
+                        <div class="card-body">
+                            <h5 class="card-title">Posesión</h5>
+                            <p class="card-text">Possesions Law information</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card" style="background-color: #c3ceda">
+                        <img src="https://cdn.pixabay.com/photo/2017/09/09/01/27/attorney-2730806_1280.jpg"
+                            class="img-fluid card-img-top" alt="sucesion-img" />
+                        <div class="card-body">
+                            <h5 class="card-title">Sucesión</h5>
+                            <p class="card-text">Sussesions Law information</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #c3ceda">
+                        <img src="https://cdn.pixabay.com/photo/2020/12/05/14/08/man-5806012_1280.jpg"
+                            class="img-fluid card-img-top" alt="contract-img" />
+                        <div class="card-body">
+                            <h5 class="card-title">Contratos</h5>
+                            <p class="card-text">Contracts Law information</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -102,12 +137,11 @@
                         Visita nuestra sección de publicaciónes dando click en el botón de
                         abajo o contáctanos
                     </p>
-                    <a href="./publicaciones.html" class="btn btn-primary">Publicaciónes</a>
+                    <a href="publicaciones.html" class="btn btn-primary">Publicaciónes</a>
                 </div>
             </div>
         </section>
     </main>
-
     <!-- {{!-- Third section of the homepage or presentation page this one has to go on the main handlebrs so it can be in
         the
         whole page --}} -->
@@ -138,7 +172,6 @@
 
         <!-- {{!-- Make a section for the legal advise --}} -->
         <section class="footer-legal-advise"></section>
-
     </footer>
 </body>
 

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iglesias y Abogados</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <!-- {{!-- First the headr with the navbar and all the links that guide the user through the page this one goes on the main
+        handlebar because is going to be used for the whole app --}} -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar navbar-dark" style="background-color: #050a30">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/home">Iglesias y Abogados</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="/welcome">Conócenos</a>
+                        <a class="nav-item nav-link" href="/civil">Abogado Civil</a>
+                        <a class="nav-item nav-link" href="/familiar">Abogado Familiar</a>
+                        <a class="nav-item nav-link" href="/penal">Abogado Penalista</a>
+                        <a class="nav-item nav-link" href="/publicaciones">Publicaciones</a>
+                        <a class="nav-item nav-link" href="/contact">Contacto</a>
+                        <a class="nav-item nav-link" href="#">Aspectos Legales/Aviso de Privacidad</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <!-- {{! For the third section of the app is going to be a div with information about us }} -->
+    <main>
+        <section class="hello-world">
+            <!-- {{! For second a background container with an image, as the previews one is going to be on all the handlebars}} -->
+            <div class="card bg-dark text-white">
+                <img src="https://cdn.pixabay.com/photo/2014/09/07/21/52/city-438393_1280.jpg" class="card-img"
+                    alt="...">
+                <div class="card-img-overlay hello-world">
+                    <h3 class="card-title">Nuestro Buffette</h3>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                    <a href="./pages/welcome.html" class="btn btn-primary">Conócenos</a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- {{!-- Create a button so all the users can go to the publications section
+        --}} -->
+        <section class="redirected-to-publications">
+            <div class="card border-light">
+                <!-- {{!--
+                <div class="text-center card-header">Featured</div>
+                --}} -->
+                <div class="text-center card-body">
+                    <h5 class="card-title">
+                        ¿Tienes dudas? Tranquil@ estamos para apoyarte.
+                    </h5>
+                    <p class="card-text">
+                        Visita nuestra sección de publicaciónes dando click en el botón de
+                        abajo o contáctanos
+                    </p>
+                    <a href="./pages/publicaciones.html" class="btn btn-primary">Publicaciónes</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- {{!-- Third section of the homepage or presentation page this one has to go on the main handlebrs so it can be in
+        the
+        whole page --}} -->
+    <footer>
+        <section id="contacto" class="first-footer-section">
+            <div class="card mb-0" style="max-width: 100%; margin-bottom: 0%; background-color: #050a30">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h2 class="card-title">Contacto</h2>
+                            <p class="card-text text-footer">Teléfono.</p>
+                            <p class="card-text text-footer">Email.</p>
+                            <p class="card-text text-footer">Dirección.</p>
+                            <p class="card-text text-footer">Nombre</p>
+                            <p class="card-text text-footer">
+                                <small class="text-muted">Text here.</small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1626128008297!2d-99.27490048533694!3d19.405378746579604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2014968c1ac8b%3A0x29c2c94ffcc7360a!2sMagnocentro%20Centro%20Comercial!5e0!3m2!1ses-419!2smx!4v1625462459148!5m2!1ses-419!2smx"
+                            width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- {{!-- Make a section for the legal advise --}} -->
+        <section class="footer-legal-advise"></section>
+
+    </footer>
+</body>
+
+</html>

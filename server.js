@@ -16,10 +16,47 @@ const password = process.env.USER_PASSWORD;
 app.use(express.static("public"));
 app.use(express.json());
 
-//This is how we use the get method
-app.get("/", (req, res) => {
+//Route for the index.html
+app.get("/home", (req, res) => {
+  res.sendFile(__dirname + "/public/index.html");
+});
+
+// Route for the contact form html
+app.get("/contact", (req, res) => {
   res.sendFile(__dirname + "/public/contactform.html");
 });
+
+// Route for the civil html
+app.get("/civil", (req, res) => {
+  res.sendFile(__dirname + "/public/civil.html");
+});
+
+// Route for the familiar html
+app.get("/familiar", (req, res) => {
+    res.sendFile(__dirname + "/public/familiar.html");
+});
+
+// Route for the penal html
+app.get("/penal", (req, res) => {
+    res.sendFile(__dirname + "/public/penal.html");
+});
+
+// Route for the familiar html
+app.get("/familiar", (req, res) => {
+    res.sendFile(__dirname + "/public/familiar.html");
+});
+
+// Route for the publicaciones html
+app.get("/publicaciones", (req, res) => {
+    res.sendFile(__dirname + "/public/publicaciones.html");
+});
+
+// Route for the welcome html
+app.get("/welcome", (req, res) => {
+    res.sendFile(__dirname + "/public/welcome.html");
+});
+
+
 
 // Now create a post route
 app.post("/", (req, res) => {
@@ -41,18 +78,17 @@ app.post("/", (req, res) => {
     from: req.body.email,
     to: process.env.USER_EMAIL,
     subject: `Message from ${req.body.email}: ${req.body.name}`,
-    text: req.body.problem
+    text: req.body.problem,
   };
 
-
-  emailTransporter.sendMail(mailOptions, (err, info)=>{
-      if(err){
-          console.log(err);
-          res.send('error');
-      } else {
-          console.log('Email sent ' + info.response);
-          res.send('success');
-      }
+  emailTransporter.sendMail(mailOptions, (err, info) => {
+    if (err) {
+      console.log(err);
+      res.send("error");
+    } else {
+      console.log("Email sent " + info.response);
+      res.send("success");
+    }
   });
 });
 
