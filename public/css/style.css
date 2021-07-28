@@ -113,6 +113,40 @@ h2 {
 
 /* Styles for the contact form html */
 
+.background-image-contact {
+  background-image: url(https://cdn.pixabay.com/photo/2020/01/20/22/21/palace-4781577_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.contact-header {
+  margin-bottom: 25%;
+}
+
+.contact-form-main {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  background-color: white;
+}
+
+.contact-h1 {
+  margin-bottom: 10%;
+}
+
+.contact-button {
+  margin-top: 5%;
+}
+
+.form-control {
+  border-radius: 0%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
 
 /* Styles for the footer handlebar */
 footer {

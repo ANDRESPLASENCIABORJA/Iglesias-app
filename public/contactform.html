@@ -10,11 +10,38 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
-<body>
-    <main>
+<body class="background-image-contact">
+
+    <header class="contact-header">
+        <nav class="navbar navbar-expand-lg fixed-top navbar navbar-dark" style="background-color: #050a30">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/home">Iglesias y Abogados</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" aria-current="page" href="/welcome">Conócenos</a>
+                        <a class="nav-item nav-link" aria-current="page" href="/civil">Abogado Civil</a>
+                        <a class="nav-item nav-link" aria-current="page" href="/familiar">Abogado Familiar</a>
+                        <a class="nav-item nav-link" aria-current="page" href="/penal">Abogado Penalista</a>
+                        <a class="nav-item nav-link" aria-current="page" href="/publicaciones">Publicaciones</a>
+                        <a class="nav-item nav-link active" aria-current="page" href="/contact">Contacto</a>
+                        <a class="nav-item nav-link" aria-current="page" href="#">Aspectos Legales/Aviso de Privacidad</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- {{! For second a background container with an image, as the previews one is going to be on all the handlebars}} -->
+    </header>
+
+    <main class="contact-form-main">
         <section class="contact-menu">
             <div class="container-fluid">
-                <h1>Contactanos</h1>
+                <h1 class="text-center contact-h1">Contáctanos</h1>
                 <form class="row g-3">
                     <div class="col-md-6">
                         <label for="inputEmail4" class="form-label">Email</label>
@@ -25,11 +52,11 @@
                         <input type="text" class="form-control" id="inputPassword4">
                     </div>
                     <div class="col-12 mb-3">
-                        <label for="inputAddress" class="form-label">Cuéntanos tu problema</label>
-                        <input type="text" class="form-control"  id="inputAddress">
+                        <label for="exampleFormControlTextarea1" class="form-label">Cuéntanos tu problema</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 text-center contact-button">
                         <button type="submit" class="btn btn-primary contact-form">Enviar</button>
                     </div>
                 </form>

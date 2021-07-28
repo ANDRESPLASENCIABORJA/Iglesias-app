@@ -3,7 +3,7 @@ const contactForm = document.querySelector(".contact-menu");
 // Global variables for the contact form
 let email = document.getElementById("inputEmail4");
 let userName = document.getElementById("inputPassword4");
-let problem = document.getElementById("inputAddress");
+let problem = document.getElementById("exampleFormControlTextarea1");
 
 // Prevent default function of the button
 contactForm.addEventListener("submit", (e) => {
