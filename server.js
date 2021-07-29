@@ -64,13 +64,23 @@ app.post("/", (req, res) => {
   console.log(req.body);
 
   // Now make the information to go to an email, the method createTransport is to do so
+  // const emailTransporter = nodemailer.createTransport({
+  //   // This is the service that we are using, in this case is gmail
+  //   service: "gmail",
+  //   // This are the credentials
+  //   auth: {
+  //     user: user,
+  //     pass: password,
+  //   },
+  // });
+
   const emailTransporter = nodemailer.createTransport({
-    // This is the service that we are using, in this case is gmail
-    service: "gmail",
-    // This are the credentials
+    host: 'server89.neubox.net',
+    port: 587,
+    // secure: true
     auth: {
       user: user,
-      pass: password,
+      pass: password
     },
   });
 
