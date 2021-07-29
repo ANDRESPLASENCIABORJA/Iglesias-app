@@ -7,7 +7,7 @@
     <title>Iglesias y Abogados</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 </head>
 
 <body>
@@ -23,89 +23,68 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="/welcome">Conócenos</a>
+                        <a class="nav-link " aria-current="page" href="/welcome">Conócenos</a>
                         <a class="nav-item nav-link" href="/civil">Abogado Civil</a>
                         <a class="nav-item nav-link" href="/familiar">Abogado Familiar</a>
                         <a class="nav-item nav-link" href="/penal">Abogado Penalista</a>
                         <a class="nav-item nav-link" href="/publicaciones">Publicaciones</a>
                         <a class="nav-item nav-link" href="/contact">Contacto</a>
-                        <a class="nav-item nav-link" href="/advise">Aspectos Legales/Aviso de Privacidad</a>
+                        <a class="nav-item nav-link active" href="/advise">Aspectos Legales/Aviso de Privacidad</a>
                     </div>
                 </div>
             </div>
         </nav>
 
         <!-- {{! For second a background container with an image, as the previews one is going to be on all the handlebars}} -->
-        <div class="container-fluid background-image"></div>
+        <div class="container-fluid background-image-advise"></div>
     </header>
 
-
-    <!-- {{! For the third section of the app is going to be a div with information about us }} -->
     <main>
-        <!-- {{! first section of the main section with an about us on it }} -->
         <section class="first-main-section">
             <div class="container-fluid first-header">
-                <h1 class="text-center">¿Quienes Somos?</h1>
+                <h1 class="text-center">Aviso de Privacidad</h1>
                 <p class="text-center fist-paragraph">
-                    Somos un buffete de abogados con mas de veinte años de experiencia
-                    en las ramas penal, civil y familiar.
+                    Lea atentamente nuestro aviso de Privacidad
                 </p>
             </div>
         </section>
-        <!-- {{! Second main section with two images and description of the mission and vission of the firm }} -->
-        <section class="second-main-section">
-            <div class="card mb-3 first-container-home" style="max-width: 100%">
-                <div class="row g-0">
-                    <div class="col-md-6">
-                        <img src="https://cdn.pixabay.com/photo/2015/11/17/18/59/architecture-1048092_1280.jpg"
-                            class="img-fluid rounded-start" alt="..." />
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card-body">
-                            <h1 class="card-title">Misión</h1>
-                            <p class="card-text">Text here.</p>
-                            <p class="card-text">
-                                <small class="text-muted">Text here.</small>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card-body">
-                            <h1 class="card-title">Visión</h1>
-                            <p class="card-text">Text here.</p>
-                            <p class="card-text">
-                                <small class="text-muted">Text here.</small>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="https://cdn.pixabay.com/photo/2015/08/21/13/28/courtroom-898931_1280.jpg"
-                            class="img-fluid rounded-start" alt="..." />
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- {{!-- Create a button so all the users can go to the publications section
-        --}} -->
-        <section class="redirected-to-publications">
-            <div class="card border-light">
-                <!-- {{!--
-                <div class="text-center card-header">Featured</div>
-                --}} -->
-                <div class="text-center card-body">
-                    <h5 class="card-title">
-                        ¿Tienes dudas? Tranquil@ estamos para apoyarte.
-                    </h5>
-                    <p class="card-text">
-                        Visita nuestra sección de publicaciónes dando click en el botón de
-                        abajo o contáctanos
-                    </p>
-                    <a href="/publicaciones" class="btn btn-primary">Publicaciónes</a>
-                </div>
+        <section class="advise-second-main-section">
+            <div class="container-fluid">
+                <h3 class="text-left">I. Identidad y Domicilio</h3>
+                <p class="text-left fist-paragraph">
+                    I. Identidad y Domicilio information
+                </p>
+            </div>
+            <div class="container-fluid">
+                <h3 class="text-left">II. Datos Personales</h3>
+                <p class="text-left fist-paragraph">
+                    II. Datos Personales information
+                </p>
+            </div>
+            <div class="container-fluid">
+                <h3 class="text-left">III. Medios para el acceso, rectificación, cancelación y/o oposición al
+                    tratamiento de datos.</h3>
+                <p class="text-left fist-paragraph">
+                    III. Medios para el acceso, rectificación, cancelación y/o oposición al tratamiento de datos
+                    information.
+                </p>
+            </div>
+            <div class="container-fluid">
+                <h3 class="text-left">IV. Medio para modificar el Aviso de Privacidad.</h3>
+                <p class="text-left fist-paragraph">
+                    IV. Medio para modificar el Aviso de Privacidad information.
+                </p>
+            </div>
+            <div class="container-fluid">
+                <h3 class="text-left">V. Aviso de Privacidad Integral</h3>
+                <p class="text-left fist-paragraph">
+                    V. Aviso de Privacidad Integral information.
+                </p>
             </div>
         </section>
     </main>
+
 
     <!-- {{!-- Third section of the homepage or presentation page this one has to go on the main handlebrs so it can be in
         the
@@ -139,6 +118,7 @@
         <section class="footer-legal-advise"></section>
 
     </footer>
+
 </body>
 
 <!-- Links to bootstrap scripts -->

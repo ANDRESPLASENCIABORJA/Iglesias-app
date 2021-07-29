@@ -56,6 +56,11 @@ app.get("/welcome", (req, res) => {
     res.sendFile(__dirname + "/public/welcome.html");
 });
 
+// Route for the advise html
+app.get("/advise", (req, res) => {
+  res.sendFile(__dirname + "/public/advise.html");
+});
+
 
 
 // Now create a post route

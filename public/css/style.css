@@ -9,6 +9,10 @@ h1 {
   color: #000c66;
 }
 
+h3 {
+  color: #000c66;
+}
+
 h5 {
   color: #000c66;
 }
@@ -149,6 +153,26 @@ h2 {
 }
 
 
+.redirected-to-publications {
+  margin-bottom: 1.5%;
+}
+
+/* Stiles for the advise html */
+
+.advise-second-main-section {
+  margin-top: 2.5%;
+}
+
+.background-image-advise {
+  background-image: url(https://cdn.pixabay.com/photo/2017/09/24/11/59/password-2781614_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25%;
+}
+
+
+
+
 /* Styles for the footer handlebar */
 footer {
   background-color: #050a30;
@@ -159,6 +183,5 @@ footer {
   color: aliceblue;
 }
 
-.redirected-to-publications {
-  margin-bottom: 1.5%;
-}
+
+
