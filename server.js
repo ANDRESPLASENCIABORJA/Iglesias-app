@@ -22,42 +22,42 @@ app.get("/", (req, res) => {
 });
 
 // Route for the contact form html
-app.get("/contact", (req, res) => {
+app.get("/contacto", (req, res) => {
   res.sendFile(__dirname + "/public/contactform.html");
 });
 
 // Route for the civil html
-app.get("/civil", (req, res) => {
+app.get("/derechocivilymercantil", (req, res) => {
   res.sendFile(__dirname + "/public/civil.html");
 });
 
 // Route for the familiar html
-app.get("/familiar", (req, res) => {
+app.get("/derechofamiliar", (req, res) => {
     res.sendFile(__dirname + "/public/familiar.html");
 });
 
 // Route for the penal html
-app.get("/penal", (req, res) => {
+app.get("/derechopenal", (req, res) => {
     res.sendFile(__dirname + "/public/penal.html");
 });
 
-// Route for the familiar html
-app.get("/familiar", (req, res) => {
-    res.sendFile(__dirname + "/public/familiar.html");
+// Route for the inmobiliario html
+app.get("/derechoinmobiliario", (req, res) => {
+    res.sendFile(__dirname + "/public/inmobiliario.html");
 });
 
 // Route for the publicaciones html
-app.get("/publicaciones", (req, res) => {
+app.get("/investigaciones", (req, res) => {
     res.sendFile(__dirname + "/public/publicaciones.html");
 });
 
 // Route for the welcome html
-app.get("/welcome", (req, res) => {
+app.get("/conocenos", (req, res) => {
     res.sendFile(__dirname + "/public/welcome.html");
 });
 
 // Route for the advise html
-app.get("/advise", (req, res) => {
+app.get("/avisodeprivacidad", (req, res) => {
   res.sendFile(__dirname + "/public/advise.html");
 });
 
