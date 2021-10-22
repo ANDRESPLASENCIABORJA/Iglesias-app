@@ -17,7 +17,7 @@ app.use(express.static("public"));
 app.use(express.json());
 
 //Route for the index.html
-app.get("/home", (req, res) => {
+app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/index.html");
 });
 
