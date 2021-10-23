@@ -43,6 +43,12 @@ h5 {
   opacity: 75%;
 }
 
+.welcome-cards {
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+
 /* Styles for the civil handlebar */
 .background-image-civil {
   background-image: url(https://cdn.pixabay.com/photo/2016/07/11/11/10/law-1509436_1280.jpg);
@@ -94,14 +100,14 @@ h5 {
 }
 
 .first-header {
-  margin-top: 5.5%;
-  padding-bottom: 5.5%;
+  margin-top: 2.5%;
+  padding-bottom: 2.5%;
   border-bottom: solid #274472;
   border-radius: 10%;
 }
 
 .fist-paragraph {
-  margin-top: 2.5%;
+  margin-top: 1.5%;
   font-size: larger;
 }
 
@@ -116,7 +122,7 @@ h5 {
 
 .second-main-section {
   margin-top: 5.5%;
-  margin-bottom: 5.5%;
+  margin-bottom: 1.5%;
 }
 
 .first-container {
