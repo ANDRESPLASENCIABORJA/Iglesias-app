@@ -5,7 +5,8 @@
   font-family: serif;
 }
 
-h1 {
+h1,
+h2 {
   color: #000c66;
 }
 
@@ -17,6 +18,16 @@ h5 {
   color: #000c66;
 }
 
+.redirected-to-welcome {
+  margin-top: 1.5%;
+  padding-bottom: 1.5%;
+  border-bottom: solid #274472;
+  border-radius: 10%;
+}
+
+.redirected-to-publications {
+  margin-top: 1.5%;
+}
 
 /* Style for the header navbar */
 .container-fluid {
@@ -25,9 +36,12 @@ h5 {
 
 /* Styles for the index.html */
 .hello-world {
-    padding-top: 50px;
+  padding-top: 55px;
 }
 
+.has-to-be-opac {
+  opacity: 75%;
+}
 
 /* Styles for the civil handlebar */
 .background-image-civil {
@@ -113,7 +127,7 @@ h5 {
   width: 300px;
 }
 
-h2 {
+h4 {
   color: #7ec8e3;
 }
 
@@ -123,7 +137,6 @@ h2 {
   background-image: url(https://cdn.pixabay.com/photo/2020/01/20/22/21/palace-4781577_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .contact-header {
@@ -153,7 +166,6 @@ h2 {
   border-right: 0;
 }
 
-
 .redirected-to-publications {
   margin-bottom: 1.5%;
 }
@@ -171,9 +183,6 @@ h2 {
   padding-bottom: 25%;
 }
 
-
-
-
 /* Styles for the footer handlebar */
 footer {
   background-color: #050a30;
@@ -183,6 +192,3 @@ footer {
 .text-footer {
   color: aliceblue;
 }
-
-
-
