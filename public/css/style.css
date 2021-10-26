@@ -18,6 +18,10 @@ h5 {
   color: #000c66;
 }
 
+main {
+  border-bottom: solid #274472;
+}
+
 .redirected-to-welcome {
   margin-top: 1.5%;
   padding-bottom: 1.5%;
@@ -103,7 +107,6 @@ h5 {
   margin-top: 2.5%;
   padding-bottom: 2.5%;
   border-bottom: solid #274472;
-  border-radius: 10%;
 }
 
 .fist-paragraph {
@@ -135,6 +138,16 @@ h5 {
 
 h4 {
   color: #7ec8e3;
+}
+
+.img-now {
+    object-fit: cover;
+}
+
+.services-section {
+  border-top: solid #274472;
+  border-bottom: solid #274472;
+
 }
 
 /* Styles for the contact form html */
