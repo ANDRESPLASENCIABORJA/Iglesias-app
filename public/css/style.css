@@ -6,20 +6,30 @@
 }
 
 h1,
-h2 {
+h2, h3, h5 {
   color: #000c66;
 }
 
-h3 {
-  color: #000c66;
-}
-
-h5 {
-  color: #000c66;
+h4 {
+  color: #7ec8e3;
 }
 
 main {
   border-bottom: solid #274472;
+}
+
+/* Style for the header navbar */
+.container-fluid {
+  padding-bottom: 1.5%;
+}
+
+/* Styles for the index.html html */
+.hello-world {
+  padding-top: 80px;
+}
+
+.has-to-be-opac {
+  opacity: 75%;
 }
 
 .redirected-to-welcome {
@@ -30,77 +40,7 @@ main {
 }
 
 .redirected-to-publications {
-  margin-top: 1.5%;
-}
-
-/* Style for the header navbar */
-.container-fluid {
-  padding-bottom: 1.5%;
-}
-
-/* Styles for the index.html */
-.hello-world {
-  padding-top: 80px;
-}
-
-.has-to-be-opac {
-  opacity: 75%;
-}
-
-.welcome-cards {
-  border-left: none;
-  border-top: none;
-  border-bottom: none;
-}
-
-/* Styles for the civil handlebar */
-.background-image-civil {
-  background-image: url(https://cdn.pixabay.com/photo/2016/07/11/11/10/law-1509436_1280.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 25%;
-}
-
-/* Styles for familiar handlebar */
-.background-image-familiar {
-  background-image: url(https://cdn.pixabay.com/photo/2013/07/09/01/50/court-144090_1280.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 25%;
-}
-
-/* Styles for penal handlebar */
-.background-image-penal {
-  background-image: url(https://cdn.pixabay.com/photo/2016/08/11/23/54/judge-1587300_1280.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 25%;
-}
-
-/* Styles for publiacaciones handlebar */
-.background-image-publicaciones {
-  background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/14/books-1245690_1280.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 25%;
-}
-
-.publications-section-one {
-  margin-bottom: 3.5%;
-  border-bottom: solid #274472;
-  border-radius: 10%;
-}
-
-.publications-header {
-  margin-bottom: 2.5%;
-}
-
-/* Styles for the welcome handlebar */
-.background-image {
-  background-image: url(https://cdn.pixabay.com/photo/2017/08/06/22/24/justitia-2597016_1280.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 25%;
+  margin-bottom: 1.5%;
 }
 
 .first-header {
@@ -123,11 +63,6 @@ main {
   border-radius: 5%;
 }
 
-.second-main-section {
-  margin-top: 1.5%;
-  margin-bottom: 1.5%;
-}
-
 .first-container {
   padding-bottom: 50px;
 }
@@ -136,18 +71,75 @@ main {
   width: 300px;
 }
 
-h4 {
-  color: #7ec8e3;
+/* Welcome html styles */
+.background-image {
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/06/22/24/justitia-2597016_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25%;
 }
 
-.img-now {
-    object-fit: cover;
+.second-main-section {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
 }
 
 .services-section {
   border-top: solid #274472;
   border-bottom: solid #274472;
+}
 
+.welcome-cards {
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+/* General styles for the htmls that have information less the investigaciones, welcome and index */
+.information-img {
+  object-fit: cover;
+}
+
+/* Styles for the civil html */
+.background-image-civil {
+  background-image: url(https://cdn.pixabay.com/photo/2016/07/11/11/10/law-1509436_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25%;
+}
+
+/* Styles for familiar html */
+.background-image-familiar {
+  background-image: url(https://cdn.pixabay.com/photo/2013/07/09/01/50/court-144090_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25%;
+}
+
+/* Styles for penal html */
+.background-image-penal {
+  background-image: url(https://cdn.pixabay.com/photo/2016/08/11/23/54/judge-1587300_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25%;
+}
+
+/* Styles for publiacaciones html */
+.background-image-publicaciones {
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/14/books-1245690_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25%;
+}
+
+.publications-section-one {
+  margin-bottom: 3.5%;
+  border-bottom: solid #274472;
+  border-radius: 10%;
+}
+
+.publications-header {
+  margin-bottom: 2.5%;
 }
 
 /* Styles for the contact form html */
@@ -185,10 +177,6 @@ h4 {
   border-right: 0;
 }
 
-.redirected-to-publications {
-  margin-bottom: 1.5%;
-}
-
 /* Stiles for the advise html */
 
 .advise-second-main-section {
@@ -202,7 +190,7 @@ h4 {
   padding-bottom: 25%;
 }
 
-/* Styles for the footer handlebar */
+/* Styles for the footer section */
 footer {
   background-color: #050a30;
   margin-bottom: 0%;
