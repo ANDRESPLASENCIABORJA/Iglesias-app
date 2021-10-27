@@ -75,7 +75,7 @@ h4 {
   background-image: url(https://cdn.pixabay.com/photo/2017/08/06/22/24/justitia-2597016_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20%;
+  padding-bottom: 22.5%;
 }
 
 .second-main-section {
@@ -112,7 +112,7 @@ h4 {
   background-image: url(https://cdn.pixabay.com/photo/2016/07/11/11/10/law-1509436_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20%;
+  padding-bottom: 22.5%;
 }
 
 /* Styles for familiar html */
@@ -120,7 +120,7 @@ h4 {
   background-image: url(https://cdn.pixabay.com/photo/2013/07/09/01/50/court-144090_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20%;
+  padding-bottom: 22.5%;
 }
 
 /* Styles for penal html */
@@ -128,7 +128,23 @@ h4 {
   background-image: url(https://cdn.pixabay.com/photo/2013/11/27/14/38/prison-fence-219264_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20%;
+  padding-bottom: 22.5%;
+}
+
+/* Styles for inmobiliario html */
+.background-image-inmobiliario {
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/26/16/06/exzenterhaus-2175925_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 22.5%;
+}
+
+/* Styles for investigaciones html */
+.background-image-investigaciones {
+  background-image: url(https://cdn.pixabay.com/photo/2015/07/31/11/45/library-869061_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 22.5%;
 }
 
 /* Styles for publiacaciones html */
