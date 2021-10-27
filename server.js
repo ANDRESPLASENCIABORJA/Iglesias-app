@@ -47,8 +47,13 @@ app.get("/derechoinmobiliario", (req, res) => {
 });
 
 // Route for the publicaciones html
-app.get("/investigaciones", (req, res) => {
+app.get("/publicaciones", (req, res) => {
     res.sendFile(__dirname + "/public/publicaciones.html");
+});
+
+// Route for the investigaciones html
+app.get("/investigaciones", (req, res) => {
+  res.sendFile(__dirname + "/public/investigaciones.html");
 });
 
 // Route for the welcome html
