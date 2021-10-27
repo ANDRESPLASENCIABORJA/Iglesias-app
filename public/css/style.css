@@ -90,6 +90,11 @@ h4 {
   border-bottom: none;
 }
 
+.welcome-link:hover {
+  color: white;
+  background-color: #274472;
+}
+
 /* General styles for the htmls that have information less the investigaciones, welcome and index */
 .information-img {
   object-fit: cover;
