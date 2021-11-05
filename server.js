@@ -85,9 +85,10 @@ app.post("/", (req, res) => {
   // });
 
   const emailTransporter = nodemailer.createTransport({
-    host: 'server89.neubox.net',
-    port: 587,
-    // secure: true
+    pool: true,
+    host: 'mail.iglesiasyabogados.com',
+    port: 465,
+    secure: true,
     auth: {
       user: user,
       pass: password
